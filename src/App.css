@@ -7,6 +7,10 @@
   pointer-events: none;
 }
 
+body>#root>div {
+  height: 100vh;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -39,4 +43,32 @@
 
 .boton-ejemplo{
   background-color: red
+}
+
+p{
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.cursor-pointer{ 
+  cursor: pointer;
+}
+
+.no-select-text{
+  
+      -webkit-touch-callout: none;
+      /* iOS Safari */
+      -webkit-user-select: none;
+      /* Safari */
+      -khtml-user-select: none;
+      /* Konqueror HTML */
+      -moz-user-select: none;
+      /* Old versions of Firefox */
+      -ms-user-select: none;
+      /* Internet Explorer/Edge */
+      user-select: none;
+      /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+    
 }
