@@ -8,7 +8,7 @@ import { NavBar } from ".";
 const DefaultLayout = () => {
   return (
     <BrowserRouter>
-      <div style={{ backgroundColor: "red", height: "100%" }}>
+      <div style={{ height: "100%", width: "100%" }}>
         {/* <NavBar /> */}
         <LoadRoutes />
       </div>

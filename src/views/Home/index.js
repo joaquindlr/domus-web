@@ -4,12 +4,11 @@ import "./Home.css";
 //components
 import { NavBar } from "../../layout";
 import { Button, Input } from "../../components/atomics";
-import ARROW from "../../assets/arrow.png";
 
 const Home = () => {
   return (
     <div className="background">
-      <NavBar />
+      <NavBar isInHome />
       <div className="d-flex justify-content-between">
         <div />
         <div className="d-flex flex-column align-items-end">
