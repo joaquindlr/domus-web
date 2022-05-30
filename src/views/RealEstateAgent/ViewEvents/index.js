@@ -1,15 +1,15 @@
 import React from 'react'
 import {Container, Row, Col, Nav, Table, Button} from  'react-bootstrap'
-import "../Secretary.css" 
-import SideBar from '../../../layout/SideBar'
+import SideBarRealEstate from '../../../layout/SideBarRealEstate'
+import "../RealEstateAgent.css" 
 
 
-const Events = () => {
+const ViewEvents = () => {
   return (
     <Container>
         <Row className='vw-100' stlye = {{height: "vw-100"}}>
             <Col sm={3} className = "bg">
-                <SideBar name = "Maria Garcia" job = "Secretaria de Comercializacion" />
+                <SideBarRealEstate name = "Clara" job = "Agente Inmobiliario" />
             </Col>
             <Col sm={9} className = "mb-101">
                 <h1 className='client-h'>Eventos</h1>
@@ -36,15 +36,11 @@ const Events = () => {
                             </tr>
                         </tbody>
                     </Table>
-                    <Button variant="success">
-                        <Nav defaultActiveKey="/home" className="flex-column text-start">
-                            <Nav.Link href="/addevents" style= {{color: "#fff"}}>Agregar Evento</Nav.Link>
-                        </Nav>
-                    </Button>
                 </div>
             </Col>
         </Row>
     </ Container>
+
   )
 }
-export default Events
+export default ViewEvents

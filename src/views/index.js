@@ -6,3 +6,8 @@ export { default as Clients } from "./Secretary/Clients";
 export { default as AddClients } from "./Secretary/AddClients";
 export { default as Events } from "./Secretary/Events";
 export { default as AddEvents } from "./Secretary/AddEvents";
+export { default as RealEstateAgent } from "./RealEstateAgent/Main";
+export { default as ViewClients } from "./RealEstateAgent/ViewClients";
+export { default as ViewEvents } from "./RealEstateAgent/ViewEvents";
+export { default as Estates } from "./RealEstateAgent/Estates";
+export { default as Admin } from "./Admin/Main";

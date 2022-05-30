@@ -2,7 +2,12 @@ import * as React from "react";
 
 import { Routes, Route } from "react-router-dom";
 import { Home, Contact, 
-  Catalog, Secretary, Clients, AddClients, Events, AddEvents } from "../views";
+  Catalog, Secretary, Clients, AddClients, Events, AddEvents, 
+  RealEstateAgent, 
+  ViewClients,
+  ViewEvents,
+  Estates,
+  Admin} from "../views";
 
 const LoadRoutes = () => {
   return (
@@ -14,6 +19,11 @@ const LoadRoutes = () => {
       <Route exact path="/addclients" element={<AddClients />} />
       <Route exact path="/events" element={<Events />} />
       <Route exact path="/addevents" element={<AddEvents />} />
+      <Route exact path="/realestateagent" element={<RealEstateAgent />} />
+      <Route exact path="/viewclients" element={<ViewClients />} />
+      <Route exact path="/viewevents" element={<ViewEvents />} />
+      <Route exact path="/estates" element={<Estates />} />
+      <Route exact path="/admin" element={<Admin />} />
       <Route path="/" element={<Home />} />
     </Routes>
   );

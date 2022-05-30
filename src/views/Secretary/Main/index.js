@@ -14,6 +14,7 @@ const Secretary = () => {
             </Col>
             <Col sm={9} className = "mb-101">
                 <h1 className='mt-5'>Bienvenida Secretaria de Comercializacion</h1>
+                
                 <Row>
                   <Col sm = {6} className = "mt-5 mf-5">
                     <Card style={{ width: '18rem' }}>
@@ -43,6 +44,7 @@ const Secretary = () => {
                   </Col>
                 </Row>
             </Col>
+            
         </Row>
     </ Container>
   )
