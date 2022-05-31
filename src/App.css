@@ -68,3 +68,7 @@ p{
                                     supported by Chrome, Edge, Opera and Firefox */
     
 }
+
+.shadow-box{
+      box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.25);
+}

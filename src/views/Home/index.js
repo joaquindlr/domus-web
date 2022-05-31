@@ -1,5 +1,6 @@
 import * as React from "react";
 import "./Home.css";
+import { Link } from "react-router-dom";
 
 //components
 import { NavBar } from "../../layout";
@@ -27,9 +28,12 @@ const Home = () => {
               <p className="fw-bold mt-4 cursor-pointer no-select-text">
                 Registrarse
               </p>
-              <p className="fw-bold mt-4 cursor-pointer no-select-text">
+              <Link
+                to="login"
+                className="fw-bold mt-4 cursor-pointer no-select-text text-decoration-none text-dark"
+              >
                 Soy empleado
-              </p>
+              </Link>
             </div>
           </form>
           {/* <div className="soy-trabajador-container cursor-pointer no-select-text">
