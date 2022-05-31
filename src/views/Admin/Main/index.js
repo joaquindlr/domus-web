@@ -40,7 +40,7 @@ const Admin = () => {
                                 <td>
                                     <div style={{display: "flexbox", flexDirection: "row"}}>
                                         <Button className='bg-warning'>M</Button>
-                                        <Button className='bg-danger`'>X</Button>
+                                        <Button className='bg-danger'>X</Button>
                                     </div>
                                 </td>
                             </tr>
@@ -55,7 +55,7 @@ const Admin = () => {
                                 <td>
                                     <div style={{display: "flexbox", flexDirection: "row"}}>
                                         <Button className='bg-warning'>M</Button>
-                                        <Button className='bg-danger`'>X</Button>
+                                        <Button className='bg-danger'>X</Button>
                                     </div>
                                 </td>
                             </tr>
@@ -70,7 +70,7 @@ const Admin = () => {
                                 <td>
                                     <div style={{display: "flexbox", flexDirection: "row"}}>
                                         <Button className='bg-warning'>M</Button>
-                                        <Button className='bg-danger`'>X</Button>
+                                        <Button className='bg-danger'>X</Button>
                                     </div>
                                 </td>
                             </tr>
@@ -85,7 +85,7 @@ const Admin = () => {
                                 <td>
                                     <div style={{display: "flexbox", flexDirection: "row"}}>
                                         <Button className='bg-warning'>M</Button>
-                                        <Button className='bg-danger`'>X</Button>
+                                        <Button className='bg-danger'>X</Button>
                                     </div>
                                 </td>
                             </tr>
