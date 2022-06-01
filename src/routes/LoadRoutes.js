@@ -16,6 +16,7 @@ import {
   Estates,
   Admin,
   Login,
+  AboutUs,
 } from "../views";
 import { useSelector } from "react-redux";
 
@@ -45,6 +46,7 @@ const LoadRoutes = () => {
         </>
       ) : (
         <>
+          <Route exact path="/about-us" element={<AboutUs />} />
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/catalog" element={<Catalog />} />
           <Route path="/login" element={<Login />} />

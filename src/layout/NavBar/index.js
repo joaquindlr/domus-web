@@ -22,7 +22,9 @@ const NavBar = ({ isInHome }) => {
         <Link to="/contact" className="menu-item">
           Contacto
         </Link>
-        <p className="menu-item">Acerca de</p>
+        <Link to="/about-us" className="menu-item">
+          Acerca de
+        </Link>
       </div>
     </div>
   );
