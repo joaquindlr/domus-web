@@ -13,7 +13,7 @@ const Home = () => {
       <div className="d-flex justify-content-between">
         <div />
         <div className="d-flex flex-column align-items-end">
-          <form className="form-container">
+          <form className="form-containerrr">
             <p className="fw-bold text-center fs-4 mb-3">INICIAR SESION</p>
             <div>
               <p className="fw-bold mt-3 fs-5 mb-1">Nombre de usuario:</p>
