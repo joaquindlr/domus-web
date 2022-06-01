@@ -26,6 +26,8 @@ hr {
     border-top: 1px solid rgb(46, 46, 46);
     width: 104%;
     color: #000;
+    height: 2.5rem;
+    text-decoration: none;
 }
 
 .url:hover {

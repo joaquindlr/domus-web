@@ -5,6 +5,8 @@ import "../Secretary.css";
 import clients from "../../../assets/clients.png";
 import events from "../../../assets/events.png";
 
+import { Link } from "react-router-dom";
+
 //components
 import { Button } from "../../../components/atomics";
 
@@ -31,13 +33,17 @@ const Secretary = () => {
                     defaultActiveKey="/home"
                     className="flex-column text-start"
                   >
-                    <Nav.Link
+                    <Link
                       eventKey="link-1"
-                      href="/clients"
-                      style={{ color: "#fff", textAlign: "center" }}
+                      to="/clients"
+                      style={{
+                        color: "#fff",
+                        textAlign: "center",
+                        textDecoration: "none",
+                      }}
                     >
-                      Ir a Clientes
-                    </Nav.Link>
+                      Ir a clientes
+                    </Link>
                   </Nav>
                 </Button>
               </Card.Body>
@@ -51,13 +57,17 @@ const Secretary = () => {
                     defaultActiveKey="/home"
                     className="flex-column text-start"
                   >
-                    <Nav.Link
+                    <Link
                       eventKey="link-1"
-                      href="/clients"
-                      style={{ color: "#fff", textAlign: "center" }}
+                      to="/events"
+                      style={{
+                        color: "#fff",
+                        textAlign: "center",
+                        textDecoration: "none",
+                      }}
                     >
                       Ir a eventos
-                    </Nav.Link>
+                    </Link>
                   </Nav>
                 </Button>
               </Card.Body>

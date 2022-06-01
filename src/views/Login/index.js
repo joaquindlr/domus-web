@@ -59,8 +59,8 @@ const Login = () => {
   }
 
   return (
-    <div className="d-flex flex-column align-items-center h-100 justify-content-center bg-dark">
-      <form className="form-container shadow-box">
+    <div className="d-flex  flex-column align-items-center h-100 justify-content-center bg-dark">
+      <form className="form-container bg-light shadow-box">
         <p className="fw-bold text-center fs-4 mb-3">INICIAR SESION</p>
         <div>
           <p className="fw-bold mt-3 fs-5 mb-1">Nombre de usuario:</p>
