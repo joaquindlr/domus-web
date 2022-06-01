@@ -2,7 +2,6 @@ import * as React from "react";
 import "./AboutUs.css";
 
 import { NavBar } from "../../layout";
-import { Button2, InputL, Textarea } from "../../components/atomics";
 
 import mapImage from "../../assets/map.png";
 

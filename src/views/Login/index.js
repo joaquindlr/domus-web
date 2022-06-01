@@ -68,7 +68,7 @@ const Login = () => {
         </div>
         <div>
           <p className="fw-bold mt-3 fs-5 mt-1">Contraseña:</p>
-          <Input value={password} onChange={onChangePassword} />
+          <Input type="password" value={password} onChange={onChangePassword} />
         </div>
         <Button onClick={onPressInitSession} className="mt-4 fs-5">
           INGRESAR

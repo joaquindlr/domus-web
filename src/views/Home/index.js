@@ -21,7 +21,7 @@ const Home = () => {
             </div>
             <div>
               <p className="fw-bold mt-3 fs-5 mt-1">Contraseña:</p>
-              <Input />
+              <Input type="password" />
             </div>
             <Button className="mt-4 fs-5">INGRESAR</Button>
             <div className="d-flex justify-content-between">
